@@ -22,20 +22,20 @@ repo en faisant un dossier `lib` où je range mes fichiers de programmes.
 ```mermaid
 classDiagram
 
-	class Racine{
-		init_repo.rb
-		Gemfile
-		Gemfile.lock
-	}
+  class Racine{
+    init_repo.rb
+    Gemfile
+    Gemfile.lock
+  }
 
-	class lib{
-		fichiers de programmes
-	}
+  class lib{
+    fichiers_de_programmes
+  }
 
-	class spec{
-		fichiers de tests
-	}
-
-	Racine <|-- lib
-	Racine <|-- spec
+  class spec{
+    fichiers_de_tests
+  }
+  
+  Racine <|-- lib
+  Racine <|-- spec
 ```
