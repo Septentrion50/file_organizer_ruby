@@ -1,4 +1,9 @@
-Dir.mkdir('lib')
+#!/usr/local/bin/ruby -w
+#
+#Le -w après le shebang dit à Ruby de fonctionner avec des avertissements
+#en plus. Pratique pour apprendre
+
+system('mkdir lib')
 
 gitignore = File.open('./.gitignore', 'a')
 gitignore.puts('.env')
@@ -16,6 +21,11 @@ gemfile.puts("gem 'rspec'")
 gemfile.puts("gem 'pry'")
 gemfile.puts("gem 'rubocop'")
 gemfile.close
+
+rub_yml = File.open('.rubocop.yml', 'a')
+rub_yml.puts('Style/FrozenStringLiteralComment:')
+rub_yml.puts('  Enabled: false')
+rub_yml.close
 
 system('bundle install')
 
