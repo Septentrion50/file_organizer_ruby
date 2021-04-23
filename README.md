@@ -19,22 +19,4 @@ m'intéressent et la commande système `bundle install` est lancée tout de suit
 Je peux aussi initialiser `rspec` automatiquement, et créer l'architecture de mon
 repo en faisant un dossier `lib` où je range mes fichiers de programmes.
 
-```mermaid
-classDiagram
-  class Racine{
-    init_repo.rb
-    Gemfile
-    Gemfile.lock
-  }
-
-  class lib{
-    fichiers_de_programmes
-  }
-
-  class spec{
-    fichiers_de_tests
-  }
-  
-  Racine <|-- lib
-  Racine <|-- spec
-```
+![Diagramme Mermaid](https://mermaid.ink/img/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG4gIGNsYXNzIFJhY2luZXtcbiAgICBpbml0X3JlcG8ucmJcbiAgICBHZW1maWxlXG4gICAgR2VtZmlsZS5sb2NrXG4gIH1cblxuICBjbGFzcyBsaWJ7XG4gICAgZmljaGllcnNfZGVfcHJvZ3JhbW1lc1xuICB9XG5cbiAgY2xhc3Mgc3BlY3tcbiAgICBmaWNoaWVyc19kZV90ZXN0c1xuICB9XG4gIFxuICBSYWNpbmUgPHwtLSBsaWJcbiAgUmFjaW5lIDx8LS0gc3BlY1xuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
