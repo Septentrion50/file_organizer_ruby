@@ -20,3 +20,7 @@ Je peux aussi initialiser `rspec` automatiquement, et créer l'architecture de m
 repo en faisant un dossier `lib` où je range mes fichiers de programmes.
 
 ![Diagramme Mermaid](https://mermaid.ink/img/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG4gIGNsYXNzIFJhY2luZXtcbiAgICBpbml0X3JlcG8ucmJcbiAgICBHZW1maWxlXG4gICAgR2VtZmlsZS5sb2NrXG4gIH1cblxuICBjbGFzcyBsaWJ7XG4gICAgZmljaGllcnNfZGVfcHJvZ3JhbW1lc1xuICB9XG5cbiAgY2xhc3Mgc3BlY3tcbiAgICBmaWNoaWVyc19kZV90ZXN0c1xuICB9XG4gIFxuICBSYWNpbmUgPHwtLSBsaWJcbiAgUmFjaW5lIDx8LS0gc3BlY1xuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+
+## Avertissements
+
+Le fonctionnement de git fait que les dossiers vides ne sont pas pris en compte dans les commits. Donc le dossier `lib` n'est pas visible ici, mais il est bien présent quand vous exécutez le programme `init_repo.rb`.
