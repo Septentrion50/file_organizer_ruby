@@ -21,7 +21,6 @@ repo en faisant un dossier `lib` où je range mes fichiers de programmes.
 
 ```mermaid
 classDiagram
-
   class Racine{
     init_repo.rb
     Gemfile
