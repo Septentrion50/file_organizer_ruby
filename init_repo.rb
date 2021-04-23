@@ -3,7 +3,7 @@
 #Le -w après le shebang dit à Ruby de fonctionner avec des avertissements
 #en plus. Pratique pour apprendre
 
-system('mkdir lib')
+Dir.mkdir('lib')
 
 gitignore = File.open('./.gitignore', 'a')
 gitignore.puts('.env')
